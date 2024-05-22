@@ -1,3 +1,7 @@
+$(document).ready( function(){
+    $(".coin-marquee-header").remove();
+});
+
 let burger_icon = document.querySelector('.burger-icon');
 let ul = document.querySelector("nav ul");
 burger_icon.addEventListener("click",()=>{
